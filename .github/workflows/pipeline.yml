@@ -1,10 +1,7 @@
 name: Web app exemplo github .Net 6
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
 
